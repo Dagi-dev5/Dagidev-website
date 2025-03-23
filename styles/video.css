@@ -1,0 +1,141 @@
+p{
+    font-family: Arial;
+}
+.tumbnail-edit{
+    width: 218px;
+    margin-bottom: 0px;
+    
+}
+.profile-pic{
+    width: 30px;
+    border-radius: 15px;
+    margin-top: 0px; 
+    cursor: pointer; 
+}
+.profile-containerL,
+.profile-container{
+    position:relative
+}
+.profile-pics{
+    width: 45px;
+    border-radius: 25px;
+    margin-top: 1px;
+  
+}
+
+.profile-container .tool-tip{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 4px;
+    white-space: nowrap;
+    display: grid;
+    grid-template-columns: 53px 1fr;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    box-shadow: 0.1px 1px 6px rgba(9, 8, 8, 0.3);
+    opacity: 0;
+    transition: opacity 0.14s;
+    pointer-events: none;
+    white-space: nowrap;
+
+}
+.profile-containerL .tool-tip{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 4px;
+    white-space: nowrap;
+    display: grid;
+    grid-template-columns: 53px 1fr;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    box-shadow: 0.1px 1px 6px rgba(9, 8, 8, 0.3);
+    opacity: 0;
+    transition: opacity 0.14s;
+    pointer-events: none;
+    white-space: nowrap;
+ 
+  
+}
+.profile-container:hover .tool-tip,
+.profile-containerL:hover .tool-tip{
+  opacity: 1;
+}
+.pic-tool-tip{
+    width: 50px;
+    border-radius: 25px;
+    display: inline-block;
+
+}
+.info-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-top: 0px;
+
+}
+.text-info{
+  
+    margin-top: 0px;
+    
+}
+.profile-div{
+    
+    margin-top: 12px;
+}
+
+.the-hole{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media (max-width:600px){
+    .the-hole{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.tumnnails{
+    position: relative;
+    width: 218px;
+    background-color: aqua;
+    height: 122px;
+    
+    
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: arial;
+    font-weight: 550;
+    font-size: 10px;
+    padding-left: 4px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 2px;
+    bottom: 5px;
+    right: 3px;
+
+}
+
+.notification-icon1{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    background-color: rgb(154, 0, 0);
+    font-family: arial;
+    color: white;
+    right: -1px;
+    top: -1px;
+    font-size: 7.7px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    }

@@ -1,0 +1,30 @@
+.sidebar{
+    background-color: lightblue;
+    position: fixed;
+    top: 47px;
+    left: 0;
+    width: 60px;
+    bottom: 0;
+    background-color: white;
+    z-index: 2;
+    padding-top: 2.5px;
+}
+.side-barink{
+    
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.side-barink:hover{
+    background-color: rgb(230, 230, 230);
+}
+.side-barink img{
+    height: 20px;
+    padding-bottom: 6px;
+}
+.side-barink div{
+    font-family: arial;
+    font-size: 8.3px;
+}
